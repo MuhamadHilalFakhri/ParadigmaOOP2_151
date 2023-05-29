@@ -29,5 +29,6 @@ public:
 };
 
 class pelajar : private manusia, public orang {
-
+public:
+	string sekolah;
 };
