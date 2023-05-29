@@ -23,4 +23,7 @@ public:
 		jenisKelamin(pJenisKelamin) {
 		cout << "manusia dibuat\n" << endl;
 	}
+	~manusia() {
+		cout << "manusia dihaous\n" << endl;
+	}
 };
